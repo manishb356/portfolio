@@ -16,7 +16,9 @@
           </p>
           <p>
             Want to connect?
-            <a href="https://www.linkedin.com/in/manish-b-726324192/"
+            <a
+              href="https://www.linkedin.com/in/manish-b-726324192/"
+              target="_BLANK"
               >Linkedin</a
             >
           </p>

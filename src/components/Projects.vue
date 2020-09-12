@@ -13,25 +13,30 @@
               v-for="index in displayCount"
               :key="index"
             >
-              <v-card>
-                <v-card-title
-                  v-text="responses[index - 1].name"
-                  class="secondary--text"
-                ></v-card-title>
-                <v-card-subtitle
-                  >Created At:
-                  {{ responses[index - 1].created_at }}</v-card-subtitle
+              <v-hover v-slot:default="{ hover }">
+                <v-card
+                  :elevation="hover ? 20 : 2"
+                  :class="{ 'on-hover': hover }"
                 >
-                <v-card-text
-                  v-text="responses[index - 1].description"
-                ></v-card-text>
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn icon target="_BLANK" :href="responses[index - 1].url"
-                    ><v-icon>mdi-open-in-new</v-icon></v-btn
+                  <v-card-title
+                    v-text="responses[index - 1].name"
+                    class="secondary--text"
+                  ></v-card-title>
+                  <v-card-subtitle
+                    >Created At:
+                    {{ responses[index - 1].created_at }}</v-card-subtitle
                   >
-                </v-card-actions>
-              </v-card>
+                  <v-card-text
+                    v-text="responses[index - 1].description"
+                  ></v-card-text>
+                  <v-card-actions>
+                    <v-spacer></v-spacer>
+                    <v-btn icon target="_BLANK" :href="responses[index - 1].url"
+                      ><v-icon>mdi-open-in-new</v-icon></v-btn
+                    >
+                  </v-card-actions>
+                </v-card>
+              </v-hover>
             </v-col>
           </v-row>
           <v-row justify="center" v-if="displayCount < responses.length">
@@ -92,3 +97,13 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.v-card {
+  transition: opacity 0.4s ease-in-out;
+}
+
+.v-card:not(.on-hover) {
+  opacity: 0.6;
+}
+</style>
