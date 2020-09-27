@@ -61,13 +61,16 @@ export default {
 
   created() {
     axios
-      .get("https://api.github.com/users/ManishBasavalinga/repos")
+      .get("https://api.github.com/users/manishb356/repos")
       .then((response) => {
         response.data.forEach((element) => {
           this.responses.push({
             name: element.name,
             created_at: element.created_at.slice(0, 10),
-            description: element.description,
+            description:
+              element.description.length > 100
+                ? element.description.slice(0, 80) + "..."
+                : element.description,
             url: element.html_url,
           });
         });

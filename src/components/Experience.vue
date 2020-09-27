@@ -35,7 +35,7 @@ export default {
     experiences: [
       {
         color: "cyan",
-        year: "Aug 2020 - Present",
+        year: "Aug 2020 - Sep 2020",
         title: "Research Intern at Rank Technologies",
         description:
           "Helped in establishing compatibility with third-party software products by testing different APIs with Postman..",

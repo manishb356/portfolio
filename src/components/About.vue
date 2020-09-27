@@ -47,11 +47,11 @@ export default {
     infoList: [
       {
         name: "mdi-linkedin",
-        link: "https://www.linkedin.com/in/manish-b-726324192/",
+        link: "https://www.linkedin.com/in/manishbasavalinga/",
       },
       {
         name: "mdi-github",
-        link: "https://github.com/ManishBasavalinga/",
+        link: "https://github.com/manishb356",
       },
       {
         name: "fab fa-dev",

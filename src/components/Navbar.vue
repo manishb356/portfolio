@@ -8,7 +8,7 @@
       elevate-on-scroll
       scroll-threshold="70"
     >
-      <div class="main-title mt-2" @click="programaticallyScroll('About')">
+      <div @click="programaticallyScroll('About')">
         <v-avatar color="grey" size="35">
           <v-img :src="require('../assets/logo.png')"></v-img>
         </v-avatar>
