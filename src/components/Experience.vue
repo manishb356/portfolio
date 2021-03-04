@@ -38,7 +38,14 @@ export default {
         year: "Aug 2020 - Sep 2020",
         title: "Research Intern at Rank Technologies",
         description:
-          "Helped in establishing compatibility with third-party software products by testing different APIs with Postman..",
+          "Helped in establishing compatibility with third-party software products by testing different APIs with Postman.",
+      },
+      {
+        color: "red",
+        year: "Oct 2020 - Feb 2021",
+        title: "Web Development Intern at PolicyEra",
+        description:
+          "Built the Web-App for the CRM Software. Implemented Authentication Dashboard and Profile Management.",
       },
     ],
   }),
