@@ -21,7 +21,7 @@
           </div>
           <div class="my-7">
             You can download my resume
-            <a href="./resume.pdf" target="_blank">here</a>
+            <a href="./manish_b_resume.pdf" target="_blank">here</a>
           </div>
           <v-row class="my-7">
             <v-btn

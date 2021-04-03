@@ -63,18 +63,21 @@ export default {
     axios
       .get("https://api.github.com/users/manishb356/repos")
       .then((response) => {
+        console.log(response.data);
         response.data.forEach((element) => {
           this.responses.push({
             name: element.name,
             created_at: element.created_at.slice(0, 10),
-            description:
-              element.description.length > 100
+            description: element.description
+              ? element.description.length > 100
                 ? element.description.slice(0, 80) + "..."
-                : element.description,
+                : element.description
+              : "",
             url: element.html_url,
           });
         });
-      });
+      })
+      .catch((error) => console.log(error));
   },
   computed: {
     displayCount() {

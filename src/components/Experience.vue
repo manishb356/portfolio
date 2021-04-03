@@ -47,6 +47,12 @@ export default {
         description:
           "Built the Web-App for the CRM Software. Implemented Authentication Dashboard and Profile Management.",
       },
+      {
+        color: "light-green",
+        year: "Mar 2021 - Present",
+        title: "Flutter Intern at SusakGjyo Business Pvt Ltd",
+        description: "Built apps using Flutter and Firebase",
+      },
     ],
   }),
 };
