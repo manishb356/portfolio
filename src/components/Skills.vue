@@ -58,6 +58,10 @@ export default {
         link: "https://img.icons8.com/color/48/000000/python.png",
         name: "Python",
       },
+      {
+        link: "https://img.icons8.com/color/48/000000/golang.png",
+        name: "Golang",
+      },
       { link: "https://img.icons8.com/color/48/000000/dart.png", name: "Dart" },
       {
         link: "https://img.icons8.com/color/48/000000/ethereum.png",
@@ -74,12 +78,12 @@ export default {
         name: "React Js",
       },
       {
-        link: "https://img.icons8.com/color/48/000000/nodejs.png",
-        name: "Node Js",
-      },
-      {
         link: "https://img.icons8.com/color/48/000000/flutter.png",
         name: "Flutter",
+      },
+      {
+        link: "https://img.icons8.com/color/48/000000/nodejs.png",
+        name: "Node Js",
       },
       {
         link: "https://img.icons8.com/color/48/000000/mongodb.png",

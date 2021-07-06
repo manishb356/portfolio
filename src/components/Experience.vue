@@ -48,10 +48,17 @@ export default {
           "Built the Web-App for the CRM Software. Implemented Authentication Dashboard and Profile Management.",
       },
       {
-        color: "light-green",
+        color: "lime",
         year: "Mar 2021 - Present",
         title: "Flutter Intern at SusakGjyo Business Pvt Ltd",
-        description: "Built apps using Flutter and Firebase",
+        description:
+          "Built multiple hybrid mobile apps using Flutter and Firebase both for the clients and the internal team",
+      },
+      {
+        color: "brown",
+        year: "Mar 2021 - Present",
+        title: "Flutter Intern at PolicyEra",
+        description: "Building an insurance manager app using flutter",
       },
     ],
   }),
