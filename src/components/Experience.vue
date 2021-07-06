@@ -49,14 +49,14 @@ export default {
       },
       {
         color: "lime",
-        year: "Mar 2021 - Present",
+        year: "Mar 2021 - Jun 2021",
         title: "Flutter Intern at SusakGjyo Business Pvt Ltd",
         description:
           "Built multiple hybrid mobile apps using Flutter and Firebase both for the clients and the internal team",
       },
       {
         color: "brown",
-        year: "Mar 2021 - Present",
+        year: "Jul 2021 - Present",
         title: "Flutter Intern at PolicyEra",
         description: "Building an insurance manager app using flutter",
       },
